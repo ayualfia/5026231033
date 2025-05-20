@@ -53,6 +53,10 @@ Route::get('tugaslinktree', function () {
     return view('tugaslinktree');
 });
 
+Route::get('Latihan ETS', function () {
+    return view('indexlatihanets');
+});
+
 Route::get('contact', function () {
     return view('contact');
 });

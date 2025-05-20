@@ -134,6 +134,14 @@
         </a>
       </div>
       <div class="col-md-6 mb-4">
+        <a href="Latihan ETS" class="task-link">
+          <div class="card task-card p-3">
+            <h5 class="font-weight-bold mb-1">Latihan ETS</h5>
+            <p class="mb-0">Latihan Evaluasi Tengah Semester Danantara</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-6 mb-4">
         <a href="ETS" class="task-link">
           <div class="card task-card p-3">
             <h5 class="font-weight-bold mb-1">ETS</h5>
