@@ -78,7 +78,7 @@
     <div class="row">
       <!-- Tugas Card dengan Link -->
       <div class="col-md-6 mb-4">
-        <a href="pertama" class="task-link">
+        <a href="pertama" class="task-link" target="_blank">
           <div class="card task-card p-3">
             <h5 class="font-weight-bold mb-1">Pertemuan 1 - pertama </h5>
             <p class="mb-0">Pengenalan Dasar HTML</p>
@@ -86,7 +86,7 @@
         </a>
       </div>
       <div class="col-md-6 mb-4">
-        <a href="bootstrap1" class="task-link">
+        <a href="bootstrap1" class="task-link" target="_blank">
           <div class="card task-card p-3">
             <h5 class="font-weight-bold mb-1">Pertemuan 3 - Bootstrap 1</h5>
             <p class="mb-0">Penggunaan layout Bootstrap.</p>
@@ -94,7 +94,7 @@
         </a>
       </div>
       <div class="col-md-6 mb-4">
-        <a href="LatihanLayout" class="task-link">
+        <a href="LatihanLayout" class="task-link" target="_blank">
           <div class="card task-card p-3">
             <h5 class="font-weight-bold mb-1">Pertemuan 4 - Latihan Layout</h5>
             <p class="mb-0">Membuat Layout HMTL di kelas</p>
@@ -102,7 +102,7 @@
         </a>
       </div>
       <div class="col-md-6 mb-4">
-        <a href="LatihanLayoutPR" class="task-link">
+        <a href="LatihanLayoutPR" class="task-link" target="_blank">
           <div class="card task-card p-3">
             <h5 class="font-weight-bold mb-1">Pertemuan 4 - Latihan Layout PR</h5>
             <p class="mb-0">Melanjukan Membuat Layout HMTL</p>
@@ -110,7 +110,7 @@
         </a>
       </div>
       <div class="col-md-6 mb-4">
-        <a href="tugaslinktree" class="task-link">
+        <a href="tugaslinktree" class="task-link" target="_blank">
           <div class="card task-card p-3">
             <h5 class="font-weight-bold mb-1">Pertemuan 5 - Tugas LinkTree</h5>
             <p class="mb-0">Tugas membuat linktree</p>
@@ -118,7 +118,7 @@
         </a>
       </div>
       <div class="col-md-6 mb-4">
-        <a href="js1" class="task-link">
+        <a href="js1" class="task-link" target="_blank">
           <div class="card task-card p-3">
             <h5 class="font-weight-bold mb-1">Pertemuan 7 - JavaScript 1</h5>
             <p class="mb-0">Dasar JavaScript, membuat kalkulator</p>
@@ -126,7 +126,7 @@
         </a>
       </div>
       <div class="col-md-6 mb-4">
-        <a href="js2" class="task-link">
+        <a href="js2" class="task-link" target="_blank">
           <div class="card task-card p-3">
             <h5 class="font-weight-bold mb-1">Pertemuan 7 - JavaScript 2 </h5>
             <p class="mb-0">Validasi dan interaksi lanjutan</p>
@@ -134,7 +134,7 @@
         </a>
       </div>
       <div class="col-md-6 mb-4">
-        <a href="Latihan ETS" class="task-link">
+        <a href="Latihan ETS" class="task-link" target="_blank">
           <div class="card task-card p-3">
             <h5 class="font-weight-bold mb-1">Latihan ETS</h5>
             <p class="mb-0">Latihan Evaluasi Tengah Semester Danantara</p>
@@ -142,7 +142,7 @@
         </a>
       </div>
       <div class="col-md-6 mb-4">
-        <a href="ETS" class="task-link">
+        <a href="ETS" class="task-link" target="_blank">
           <div class="card task-card p-3">
             <h5 class="font-weight-bold mb-1">ETS</h5>
             <p class="mb-0">Evaluasi Tengah Semester.</p>
@@ -158,7 +158,7 @@
     <div class="row">
       <!-- Tugas Card dengan Link -->
       <div class="col-md-6 mb-4">
-        <a href="template1" class="task-link">
+        <a href="template1" class="task-link" target="_blank">
           <div class="card task-card p-3">
             <h5 class="font-weight-bold mb-1">Pertemuan 3 - Template Bootsrap 4</h5>
             <p class="mb-0">Template Bootsrap 4</p>
