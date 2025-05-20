@@ -56,7 +56,10 @@
           <h4 class="mb-2">✽ About </h4>
           <p>Halaman ini berisi kumpulan tugas-tugas yang dikerjakan dalam mata kuliah Pemrograman Web pada Semester 4 tahun 2025. </p>
         </div>
-        <a href="#tugas" class="btn btn-danger btn-lg mt-4">Lihat Tugas Saya</a>
+        <div class="d-flex mt-4" style="gap: 1rem;">
+        <a href="#tugas" class="btn btn-danger btn-lg">Lihat Tugas Saya</a>
+        <a href="#template" class="btn btn-danger btn-lg">Template</a>
+        </div>
       </div>
       <!-- Right -->
       <div class="col-md-6 text-center">
@@ -142,7 +145,7 @@
 </div>
 
   <!-- Template Section -->
-  <div id="template1" class="container mb-5">
+  <div id="template" class="container mb-5">
     <h2 class="mb-4 font-weight-bold text-dark">📋 Template</h2>
     <div class="row">
       <!-- Tugas Card dengan Link -->
