@@ -24,3 +24,57 @@ Route::get('hello', [Link::class, 'helloword']); // menggunakan controller
 Route::get('pertama', function () {
 	return view('pertama');
 });
+
+Route::get('bootstrap1', function () {
+	return view('bootstrap1');
+});
+
+Route::get('js1', function () {
+    return view('js1');
+});
+
+Route::get('js2', function () {
+    return view('js2');
+});
+
+Route::get('LatihanLayoutPR', function () {
+    return view('LatihanLayoutPR');
+});
+
+Route::get('LatihanLayout', function () {
+    return view('LatihanLayout');
+});
+
+Route::get('template1', function () {
+    return view('template1');
+});
+
+Route::get('tugaslinktree', function () {
+    return view('tugaslinktree');
+});
+
+Route::get('contact', function () {
+    return view('contact');
+});
+
+Route::get('ETS', function () {
+    return view('indexets');
+});
+
+Route::get('projects', function () {
+    return view('projects');
+});
+
+Route::get('resume', function () {
+    return view('resume');
+});
+
+Route::get('frontend', function () {
+    return view('frontend');
+});
+
+Route::get('linkfe', function () {
+    return view('linkfe');
+});
+
+
