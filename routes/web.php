@@ -5,6 +5,8 @@ use App\Http\Controllers\Link ;
 use App\Http\Controllers\PegawaiController ;
 use App\Http\Controllers\Pegawai2Controller ;
 use App\Http\Controllers\BlogController ;
+use App\Http\Controllers\PenghapusController ;
+
 // import java.io;
 
 // System.out.print();
@@ -104,4 +106,13 @@ Route::get('/pegawai/edit/{id}', [PegawaiController::class,'edit'] );
 Route::post('/pegawai/update', [PegawaiController::class,'update'] );
 Route::get('/pegawai/hapus/{id}', [PegawaiController::class,'hapus'] );
 Route::get('/pegawai/cari', [PegawaiController::class,'cari'] );
+
+//crud penghapus
+Route::get('/penghapus', [PenghapusController::class, 'index']);
+Route::get('/penghapus/tambah', [PenghapusController::class,'tambah'] );
+Route::post('/penghapus/store', [PenghapusController::class,'store'] );
+Route::get('/penghapus/edit/{id}', [PenghapusController::class,'edit'] );
+Route::post('/penghapus/update', [PenghapusController::class,'update'] );
+Route::get('/penghapus/hapus/{id}', [PenghapusController::class,'hapus'] );
+Route::get('/penghapus/cari', [PenghapusController::class,'cari'] );
 
