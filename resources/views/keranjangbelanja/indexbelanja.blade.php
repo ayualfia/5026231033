@@ -9,6 +9,7 @@
 
 	<table class = "table table-striped table-hover align-middle text-center shadow-sm">
 		<tr>
+            <th>Kode Pembelian</th>
 			<th>Kode Barang</th>
 			<th>Jumlah Pembelian</th>
 			<th>Harga per item</th>
@@ -17,6 +18,7 @@
 		</tr>
 		@foreach($keranjangbelanja as $kb)
 		<tr>
+            <td>{{ $kb->ID}}</td>
 			<td>{{ $kb->KodeBarang }}</td>
 			<td>{{ $kb->Jumlah }}</td>
             <td>Rp {{ number_format($kb->Harga, 0, ',', '.') }} </td>

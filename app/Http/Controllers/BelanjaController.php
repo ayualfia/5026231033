@@ -33,6 +33,7 @@ class BelanjaController extends Controller
 
         // insert data ke table keranjangbelanja
         DB::table('keranjangbelanja')->insert([
+            'ID' => $request->ID,
             'KodeBarang' => $request->KodeBarang,
             'Jumlah' => $request->Jumlah,
             'Harga' => $request->Harga,
@@ -40,19 +41,6 @@ class BelanjaController extends Controller
         // alihkan halaman ke halaman keranjangbelanja
         return redirect('/keranjangbelanja');
 
-    }
-
-    // update data keranjangbelanja
-    public function update(Request $request)
-    {
-        // update data keranjangbelanja
-        DB::table('keranjangbelanja')->where('ID', $request->id)->update([
-            'KodeBarang' => $request->KodeBarang,
-            'Jumlah' => $request->Jumlah,
-            'Harga' => $request->Harga,
-        ]);
-        // alihkan halaman ke halaman keranjangbelanja
-        return redirect('/keranjangbelanja');
     }
 
     // method untuk hapus data keranjangbelanja
