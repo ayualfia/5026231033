@@ -1,11 +1,13 @@
 <?php
 
+use App\Http\Controllers\BelanjaController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Link ;
 use App\Http\Controllers\PegawaiController ;
 use App\Http\Controllers\Pegawai2Controller ;
 use App\Http\Controllers\BlogController ;
 use App\Http\Controllers\PenghapusController ;
+use App\Http\Controllers\keranjangbelanjaController ;
 
 // import java.io;
 
@@ -115,4 +117,12 @@ Route::get('/penghapus/edit/{id}', [PenghapusController::class,'edit'] );
 Route::post('/penghapus/update', [PenghapusController::class,'update'] );
 Route::get('/penghapus/hapus/{id}', [PenghapusController::class,'hapus'] );
 Route::get('/penghapus/cari', [PenghapusController::class,'cari'] );
+
+//crud keranjang belanja
+Route::get('/keranjangbelanja', [BelanjaController::class, 'index']);
+Route::get('/keranjangbelanja/tambah', [BelanjaController::class,'tambah'] );
+Route::post('/keranjangbelanja/store', [BelanjaController::class,'store'] );
+Route::post('/keranjangbelanja/update', [BelanjaController::class,'update'] );
+Route::get('/keranjangbelanja/hapus/{id}', [BelanjaController::class,'hapus'] );
+Route::get('/keranjangbelanja/cari', [BelanjaController::class,'cari'] );
 
