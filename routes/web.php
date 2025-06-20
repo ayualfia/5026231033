@@ -9,6 +9,8 @@ use App\Http\Controllers\PenghapusController ;
 use App\Http\Controllers\BelanjaController;
 use App\Http\Controllers\Karyawan1Controller ;
 use App\Http\Controllers\Karyawan2Controller ;
+use App\Http\Controllers\LatihanA1Controller;
+use App\Http\Controllers\BelajarEASController ;
 
 // import java.io;
 
@@ -137,6 +139,13 @@ Route::get('/karyawan2/tambah', [Karyawan2Controller::class,'tambah'] );
 Route::post('/karyawan2/store', [Karyawan2Controller::class,'store'] );
 Route::get('/karyawan2/hapus/{id}', [Karyawan2Controller::class,'hapus'] );
 
-
-
+//belajar EAS mandiri :)
+Route::get('/LatihanA1', [LatihanA1Controller::class, 'index5']);  //dapet soal dari kelas C
+Route::get('/mahasiswacb', [BelajarEASController::class, 'index']);
+Route::get('/mahasiswacb/tambah', [BelajarEASController::class,'tambah'] );
+Route::post('/mahasiswacb/store', [BelajarEASController::class,'store'] );
+Route::get('/mahasiswacb/edit/{id}', [BelajarEASController::class,'edit'] );
+Route::post('/mahasiswacb/update', [BelajarEASController::class,'update'] );
+Route::get('/mahasiswacb/hapus/{id}', [BelajarEASController::class,'hapus'] );
+Route::get('/mahasiswacb/cari', [BelajarEASController::class,'cari'] );
 

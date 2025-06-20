@@ -1,0 +1,6 @@
+buat template
+@extends('template')
+
+@section('content')
+
+@endsection
