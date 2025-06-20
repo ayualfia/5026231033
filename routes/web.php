@@ -11,6 +11,7 @@ use App\Http\Controllers\Karyawan1Controller ;
 use App\Http\Controllers\Karyawan2Controller ;
 use App\Http\Controllers\LatihanA1Controller;
 use App\Http\Controllers\BelajarEASController ;
+use App\Http\Controllers\MyKaryawanController;
 
 // import java.io;
 
@@ -149,3 +150,9 @@ Route::post('/mahasiswacb/update', [BelajarEASController::class,'update'] );
 Route::get('/mahasiswacb/hapus/{id}', [BelajarEASController::class,'hapus'] );
 Route::get('/mahasiswacb/cari', [BelajarEASController::class,'cari'] );
 
+//crud EAS MyKaryawan
+Route::get('/eas', [MyKaryawanController::class, 'index']);
+Route::post('/eas/store', [MyKaryawanController::class,'store'] );
+Route::get('/eas/edit/{id}', [MyKaryawanController::class,'edit'] );
+Route::post('/eas/update', [MyKaryawanController::class,'update'] );
+Route::get('/eas/view/{id}', [MyKaryawanController::class,'view'] );
